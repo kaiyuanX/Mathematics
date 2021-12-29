@@ -3,7 +3,7 @@
 ### Description
 Notes of math.
 
-### Table of content
+### Table of contents
 * [Fourier-series](Fourier-series)
 * [Linear-algebra](Linear-algebra)
 * [Probability](Probability)
