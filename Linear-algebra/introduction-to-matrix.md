@@ -28,7 +28,7 @@ $A_{m\times n}$
 
 $\qquad dimC(A)+dimN(A)=n$
 
-$\begin{aligned} \begin{cases} C(A)\in R^m \ \ \ \longrightarrow dim=rank\\ N(A)\in R^n \ \ \ \longrightarrow dim=(n-rank)\\ C(A^T)\in R^n \ \longrightarrow dim=rank\\  C(A^T)\in R^m \longrightarrow dim=(m-rank)(A^Ty=0) \end{cases} \end{aligned}$
+$\begin{aligned} \begin{cases} C(A)\in R^m \ \ \ \longrightarrow dim=rank\\ N(A)\in R^n \ \ \ \longrightarrow dim=(n-rank)\\ C(A^T)\in R^n \ \longrightarrow dim=rank\\  N(A^T)\in R^m \longrightarrow dim=(m-rank)(A^Ty=0) \end{cases} \end{aligned}$
 
 当 $n=m$ 时 , 这些空间更有讨论的意义
 
@@ -95,3 +95,38 @@ $\qquad \,\,\,\,\,\, (\ det\ I_i(x)=x_i\ )$
 $\qquad$ ==几何解释==
 
 $\qquad \displaystyle \frac{det\ I_i(x)}{det\ I}=\frac{det\ A_i(b)}{det\ A}$
+
+## 左右逆
+$A_{m\times n}\quad rank=r$
+
+左逆 $\quad {(A^TA)}^{-1}A^T\quad m>n$
+
+右逆 $\quad A^T{(A^TA)}^{-1}\quad m<n$
+
+## 伪逆
+![](image/2022-01-02-15-35-52.png)
+
+## 转置的性质
+$A=a_{ij}\qquad A^T=a_{ji}$
+$\,$
+
+1. $(A^T)^T=A$
+$\,$
+2. $(cA)^T=cA^T$
+$\,$
+3. $(A+B)^T=A^T+B^T$
+$\,$
+4. $(AB)^T=B^TA^T$
+
+## 分解
+$A=CR$
+
+$A=LU$
+
+$A=QR$
+
+$A=QDQ^{T}$
+
+$A=XDX^{-1}$
+
+$A=U\Sigma V^T$
