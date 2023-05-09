@@ -41,6 +41,8 @@ $\begin{aligned} \begin{cases} C(A)\in R^m \ \ \ \longrightarrow dim=rank\\ N(A)
 
 ④ 外积
 
+[矩阵乘法核心思想（5）：内积与外积](https://zhuanlan.zhihu.com/p/350470257)
+
 ## 可逆矩阵
 ==基本性质==
 
